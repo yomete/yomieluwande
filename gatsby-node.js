@@ -1,64 +1,47 @@
 const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const result = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-              }
-            }
-          }
-        }
-      }
-    `
-  )
+  const homePage = path.resolve(`./src/components/Pages/HomePage/index.tsx`)
+  const journalPage = path.resolve(`./src/components/Pages/Journal/index.tsx`)
+  const projectsPage = path.resolve(`./src/components/Pages/Projects/index.tsx`)
+  const workPage = path.resolve(`./src/components/Pages/Work/index.tsx`)
 
-  if (result.errors) {
-    throw result.errors
-  }
+  createPage({
+    path: "/",
+    component: homePage,
+  })
 
-  // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  createPage({
+    path: "/journal",
+    component: journalPage,
+  })
 
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+  createPage({
+    path: "/projects",
+    component: projectsPage,
+  })
 
-    createPage({
-      path: post.node.fields.slug,
-      component: blogPost,
-      context: {
-        slug: post.node.fields.slug,
-        previous,
-        next,
-      },
-    })
+  createPage({
+    path: "/work",
+    component: workPage,
   })
 }
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
+  const config = getConfig()
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
+  config.resolve = {
+    ...config.resolve,
+
+    alias: {
+      ...(config.resolve && config.resolve.alias ? config.resolve.alias : {}),
+
+      // Resolve tsconfig.json paths.
+      src: path.resolve(__dirname, "src"),
+    },
   }
+
+  actions.replaceWebpackConfig(config)
 }
