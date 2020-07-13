@@ -73,7 +73,14 @@ const SEO = ({ description, lang, meta, title }: Props) => {
           content: metaDescription,
         },
       ].concat(meta || [])}
-    />
+    >
+      <script
+        async
+        defer
+        data-domain="yomieluwande.me"
+        src="https://plausible.io/js/plausible.js"
+      ></script>
+    </Helmet>
   )
 }
 

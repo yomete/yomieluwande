@@ -1,5 +1,6 @@
 import * as React from "react"
 
+import SEO from "src/utils/seo"
 import SiteFrame from "src/components/SiteFrame"
 import * as Styles from "./styles"
 
@@ -64,6 +65,8 @@ export const Work = () => {
           </Styles.Title>
         </Styles.Experiences>
       </Styles.Root>
+
+      <SEO title="Work" />
     </SiteFrame>
   )
 }

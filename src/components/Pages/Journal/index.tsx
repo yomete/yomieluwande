@@ -1,5 +1,6 @@
 import * as React from "react"
 
+import SEO from "src/utils/seo"
 import SiteFrame from "src/components/SiteFrame"
 import * as Styles from "./styles"
 
@@ -64,6 +65,11 @@ export const Journal = () => {
 
         <OtherPublications />
       </Styles.Root>
+
+      <SEO
+        title="Journal"
+        description="The journal of Yomi Eluwande. A frontend engineer and writer currently living in Berlin."
+      />
     </SiteFrame>
   )
 }

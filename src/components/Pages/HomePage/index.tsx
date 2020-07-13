@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import * as React from "react"
 
+import SEO from "src/utils/seo"
 import SiteFrame from "src/components/SiteFrame"
 import * as Styles from "./styles"
 
@@ -61,6 +62,11 @@ export const Homepage = () => {
           </li>
         </ul>
       </Styles.Root>
+
+      <SEO
+        title="Hello 👋🏾"
+        description="A frontend engineer and writer currently living in Berlin."
+      />
     </SiteFrame>
   )
 }
