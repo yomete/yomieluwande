@@ -6,9 +6,9 @@ export const Root = styled.section`
   width: 100%;
   max-width: 550px;
 
-  padding: 0 1rem;
+  padding: 0 2rem;
 
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1024px) {
     padding: 0;
   }
 `

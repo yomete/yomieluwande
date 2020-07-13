@@ -12,9 +12,9 @@ export const Header = styled.header`
   margin-top: 4.375rem;
   margin-bottom: 6.25rem;
 
-  padding: 0 1rem;
+  padding: 0 2rem;
 
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1024px) {
     padding: 0;
   }
 
@@ -36,5 +36,9 @@ export const PageLink = styled(Link)`
   font-size: 1.125rem;
   text-decoration: none;
 
-  margin-left: 3.125rem;
+  margin-left: 1.5rem;
+
+  @media all and (min-width: 768px) {
+    margin-left: 3.125rem;
+  }
 `
