@@ -1,0 +1,170 @@
+[
+  {
+    "title": "How to use GraphQL in Gatsby",
+    "publication": "Robin Wieruch's Blog",
+    "link": "https://www.robinwieruch.de/gatsby-graphql",
+    "date": "May 17, 2020"
+  },
+  {
+    "title": "An SEO approach to async components with loadable-components",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/seo-approach-async-loadable-components/",
+    "date": "Apr 23, 2020"
+  },
+  {
+    "title": "Build responsive components in Gatsby with artsy/fresnel",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/build-responsive-components-gatsby-artsy-fresnel/",
+    "date": "Feb 6, 2020"
+  },
+  {
+    "title": "How to set up a TypeScript + Gatsby app",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/set-up-a-typescript-gatsby-app/",
+    "date": "Aug 14, 2019"
+  },
+  {
+    "title": "React Styled Components Tutorial",
+    "publication": "Robin Wieruch's Blog",
+    "link": "https://www.robinwieruch.de/react-styled-components",
+    "date": "Mar 30, 2019"
+  },
+  {
+    "title": "A quick guide to testing React Hooks",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/a-quick-guide-to-testing-react-hooks-fa584c415407/",
+    "date": "Feb 20, 2019"
+  },
+  {
+    "title": "React Semantic UI Tutorial for Beginners",
+    "publication": "Robin Wieruch's Blog",
+    "link": "https://www.robinwieruch.de/react-semantic-ui-tutorial",
+    "date": "Jan 6, 2019"
+  },
+  {
+    "title": "An Introduction to Hooks in React",
+    "publication": "Fullstack React",
+    "link": "https://www.fullstackreact.com/articles/an-introduction-to-hooks-in-react",
+    "date": "Nov 8, 2018"
+  },
+  {
+    "title": "The Fullstack Guide To What's New in Create React App 2.0 - And How To Use It - Sass, Fragments, Code Splitting and More",
+    "publication": "Fullstack React",
+    "link": "https://www.fullstackreact.com/articles/fullstack-guide-whats-new-in-create-react-app-and-how-to-use-it",
+    "date": "Oct 10, 2018"
+  },
+  {
+    "title": "An imperative guide to forms in Vue.js",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/an-imperative-guide-to-forms-in-vue-js-2/",
+    "date": "Oct 4, 2018"
+  },
+  {
+    "title": "React Suspense: Async Rendering in React",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/async-rendering-in-react-with-suspense-5d0eaac886c8/",
+    "date": "Sep 11, 2018"
+  },
+  {
+    "title": "An Introduction to Using Web Workers in React",
+    "publication": "Fullstack React",
+    "link": "https://www.newline.co/fullstack-react/articles/introduction-to-web-workers-with-react/",
+    "date": "Aug 20, 2018"
+  },
+  {
+    "title": "A guide to React onClick event handlers",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/a-guide-to-react-onclick-event-handlers-d411943b14dd/",
+    "date": "Jul 10, 2018"
+  },
+  {
+    "title": "Fullstack React's Guide to using Refs in React Components",
+    "publication": "Fullstack React",
+    "link": "https://www.newline.co/fullstack-react/articles/using-refs-in-react/",
+    "date": "Jun 22, 2018"
+  },
+  {
+    "title": "The definitive guide to React Material",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/the-definitive-guide-to-react-material-d730c8a3e8ba/",
+    "date": "Jun 6, 2018"
+  },
+  {
+    "title": "End-to-end testing React apps with Puppeteer and Jest",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/end-to-end-testing-react-apps-with-puppeteer-and-jest-ce2f414b4fd7/",
+    "date": "May 9, 2018"
+  },
+  {
+    "title": "Introduction to Progressive Web Apps",
+    "publication": "Pusher",
+    "link": "https://blog.pusher.com/introduction-progressive-web-apps/",
+    "date": "Apr 6, 2018"
+  },
+  {
+    "title": "How (and when) to use React’s new Context API",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/how-and-when-to-use-reacts-new-context-api-b584e41b2704/",
+    "date": "Mar 29, 2018"
+  },
+  {
+    "title": "An imperative guide to forms in React",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/an-imperative-guide-to-forms-in-react-927d9670170a/",
+    "date": "Feb 22, 2018"
+  },
+  {
+    "title": "Advanced React Router concepts: Recursive path, code splitting, and more",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/advanced-react-router-concepts-code-splitting-animated-transitions-scroll-restoration-recursive-17096c0cf9db/",
+    "date": "Nov 7, 2017"
+  },
+  {
+    "title": "Build a realtime PWA with React",
+    "publication": "Pusher",
+    "link": "https://pusher.com/tutorials/pwa-react",
+    "date": "Sep 14, 2017"
+  },
+  {
+    "title": "Introduction to headless browser testing",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/introduction-to-headless-browser-testing-44b82310b27c/",
+    "date": "Sep 11, 2017"
+  },
+  {
+    "title": "Build a multiplayer quiz game with VueJS",
+    "publication": "Pusher",
+    "link": "https://pusher.com/tutorials/game-vuejs",
+    "date": "Sep 4, 2017"
+  },
+  {
+    "title": "Introduction to Preact : A smaller, faster React alternative",
+    "publication": "LogRocket",
+    "link": "https://blog.logrocket.com/introduction-to-preact-a-smaller-faster-react-alternative-ad5532eb6d79/",
+    "date": "Aug 14, 2017"
+  },
+  {
+    "title": "Creating Beautiful Charts Using Vue.js Wrappers for Chart.js",
+    "publication": "Sitepoint",
+    "link": "https://www.sitepoint.com/creating-beautiful-charts-vue-chart-js/",
+    "date": "Jul 26, 2017"
+  },
+  {
+    "title": "Build a Chat App with React, Auth0 and Pusher",
+    "publication": "Auth0",
+    "link": "https://auth0.com/blog/build-a-chat-app-with-react/",
+    "date": "Jun 30, 2017"
+  },
+  {
+    "title": "Build a realtime chart with VueJS",
+    "publication": "Pusher",
+    "link": "https://pusher.com/tutorials/chart-vuejs",
+    "date": "Jun 22, 2017"
+  },
+  {
+    "title": "Here’s what you need to know about npm 5",
+    "publication": "Pusher",
+    "link": "https://blog.pusher.com/what-you-need-know-npm-5/",
+    "date": "Jun 13, 2017"
+  }
+]

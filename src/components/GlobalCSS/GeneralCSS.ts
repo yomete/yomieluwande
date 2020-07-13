@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
-import { FontFamily } from "src/styles/typography"
+import { BrandColors } from "src/styles/theme"
+import { FontFamily, FontWeight } from "src/styles/typography"
 
 const GeneralCSS = createGlobalStyle`
 *, *::before, *::after {
@@ -11,14 +12,27 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  font-family: ${FontFamily.Inter};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: ${BrandColors.Blue}
+}
+
 a {
   color: inherit;
 }
 
-body {
-  font-family: ${FontFamily.Averta};
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+p {
+  margin-bottom: 1.25rem;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-variation-settings: "wght" ${FontWeight.Bold};
+
+  margin-bottom: 2.5rem;
 }
 `
 

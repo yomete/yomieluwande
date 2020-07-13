@@ -5,11 +5,17 @@ import * as Styles from "./styles"
 
 const Header = () => {
   return (
-    <>
-      <Link to="/journal">Journal</Link>
-      <Link to="/work">Work</Link>
-      <Link to="/projects">Projects</Link>
-    </>
+    <Styles.Header>
+      <div>
+        <Styles.Logo to="/">ye</Styles.Logo>
+      </div>
+
+      <div>
+        <Styles.PageLink to="/journal">journal</Styles.PageLink>
+        <Styles.PageLink to="/work">work</Styles.PageLink>
+        <Styles.PageLink to="/projects">projects</Styles.PageLink>
+      </div>
+    </Styles.Header>
   )
 }
 

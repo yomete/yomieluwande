@@ -1,13 +1,15 @@
 import * as React from "react"
 
-import AvertaCSS from "./AvertaCSS"
+import CanterboldCSS from "./CanterboldCSS"
 import GeneralCSS from "./GeneralCSS"
+import InterCSS from "./InterCSS"
 import ResetCSS from "./ResetCSS"
 
 const GlobalCSS = () => (
   <>
     <ResetCSS />
-    <AvertaCSS />
+    <CanterboldCSS />
+    <InterCSS />
     <GeneralCSS />
   </>
 )
