@@ -4,7 +4,7 @@ import { createGlobalStyle } from "styled-components"
 const CSS = createGlobalStyle`
   @font-face {
     font-family: "Canterbold";
-    src: url("./fonts/canterbold.otf") format("otf"),
+    src: url("./fonts/canterbold.woff") format("woff"),
   }
 `
 const Canterbold = () => <CSS />
