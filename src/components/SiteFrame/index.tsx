@@ -11,7 +11,7 @@ const SiteFrame: React.FC<{
     <>
       <GlobalCSS />
       <Styles.Root>
-        <Header />  
+        <Header />
 
         {children}
       </Styles.Root>

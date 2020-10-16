@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components"
 
 const CSS = createGlobalStyle`
   @font-face {
-    font-family: "Averta";
+    font-family: "Inter";
     src: url("./fonts/Inter-VariableFont_slnt,wght.ttf") format("ttf"),
   }
 `
