@@ -21,7 +21,7 @@ export const Work = () => {
           </Styles.Title>
           <p>
             Working on helloclue.com; a Gatsby site which is an encyclopedia for
-            women’s health. Responsible for maintaining/building (new components
+            women’s health. Responsible for adding/maintaining new components
             to serve content from a Contentful GraphQL server. Built a Jenkins
             CI process that uses Lighthouse to check if a PR build
             increases/decreases page speed and performance.
