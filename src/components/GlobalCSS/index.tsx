@@ -1,13 +1,11 @@
-import * as React from "react"
+import * as React from 'react'
 
-import CanterboldCSS from "./CanterboldCSS"
-import GeneralCSS from "./GeneralCSS"
-import InterCSS from "./InterCSS"
-import ResetCSS from "./ResetCSS"
+import CanterboldCSS from './CanterboldCSS'
+import GeneralCSS from './GeneralCSS'
+import InterCSS from './InterCSS'
 
 const GlobalCSS = () => (
   <>
-    <ResetCSS />
     <CanterboldCSS />
     <InterCSS />
     <GeneralCSS />

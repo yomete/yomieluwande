@@ -1,10 +1,12 @@
-import * as React from "react"
-import { createGlobalStyle } from "styled-components"
+import * as React from 'react'
+import { createGlobalStyle } from 'styled-components'
+
+const sourceURL = require('./fonts/CanterBold.woff')
 
 const CSS = createGlobalStyle`
   @font-face {
     font-family: "Canterbold";
-    src: url("./fonts/canterbold.woff") format("woff"),
+    src: url("${sourceURL}") format("woff"),
   }
 `
 const Canterbold = () => <CSS />

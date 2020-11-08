@@ -1,10 +1,10 @@
-import * as React from "react"
+import * as React from 'react'
 
-import SEO from "src/utils/seo"
-import SiteFrame from "src/components/SiteFrame"
-import * as Styles from "./styles"
+import SEO from 'src/utils/seo'
+import SiteFrame from 'src/components/SiteFrame'
+import * as Styles from './styles'
 
-import articles from "./articles.json"
+import articles from './articles.json'
 
 interface TechnicalArticlesProps {
   title: string

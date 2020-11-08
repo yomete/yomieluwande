@@ -1,7 +1,7 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from 'styled-components'
 
-import { BrandColors } from "src/styles/theme"
-import { FontFamily, FontWeight } from "src/styles/typography"
+import { BrandColors } from 'src/styles/theme'
+import { FontFamily, FontWeight } from 'src/styles/typography'
 
 const GeneralCSS = createGlobalStyle`
 *, *::before, *::after {

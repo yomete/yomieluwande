@@ -1,7 +1,6 @@
-import { Link } from "gatsby"
-import * as React from "react"
+import * as React from 'react'
 
-import * as Styles from "./styles"
+import * as Styles from './styles'
 
 const Header = () => {
   return (

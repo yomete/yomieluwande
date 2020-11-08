@@ -1,8 +1,8 @@
-import { Link } from "gatsby"
-import styled from "styled-components"
+import { Link } from 'gatsby'
+import styled from 'styled-components'
 
-import { BrandColors } from "src/styles/theme"
-import { FontFamily } from "src/styles/typography"
+import { BrandColors } from 'src/styles/theme'
+import { FontFamily } from 'src/styles/typography'
 
 export const Header = styled.header`
   display: flex;

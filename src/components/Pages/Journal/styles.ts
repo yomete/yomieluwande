@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-import { FontWeight } from "src/styles/typography"
+import { FontWeight } from 'src/styles/typography'
 
 export const Root = styled.section`
   width: 100%;
@@ -31,7 +31,7 @@ export const TechnicalArticles = styled.div`
 `
 
 export const Category = styled.h2`
-  font-variation-settings: "wght" ${FontWeight.Medium};
+  font-variation-settings: 'wght' ${FontWeight.Medium};
   font-size: 1.375rem;
 
   margin-bottom: 1.25rem;
@@ -44,11 +44,11 @@ export const PublicationDate = styled.p`
 `
 export const PublicationTitle = styled.a`
   font-size: 1rem;
-  font-variation-settings: "wght" ${FontWeight.Medium};
+  font-variation-settings: 'wght' ${FontWeight.Medium};
 
   span {
     font-style: italic;
-    font-variation-settings: "ital" 1;
+    font-variation-settings: 'ital' 1;
     text-decoration: none;
   }
 `
