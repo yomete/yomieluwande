@@ -63,7 +63,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   })
 
   createPage({
-    path: '/journal',
+    path: '/writing',
     component: journalPage,
   })
 

@@ -10,7 +10,7 @@ const Header = () => {
       </div>
 
       <div>
-        <Styles.PageLink to="/journal">journal</Styles.PageLink>
+        <Styles.PageLink to="/writing">writing</Styles.PageLink>
         <Styles.PageLink to="/work">work</Styles.PageLink>
         <Styles.PageLink to="/projects">projects</Styles.PageLink>
       </div>

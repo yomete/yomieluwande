@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import { Link } from 'gatsby'
+import styled, { css } from 'styled-components'
 
 import { FontWeight } from 'src/styles/typography'
 
@@ -46,13 +47,16 @@ export const PublicationDate = styled.p`
 
   margin-bottom: 0.625rem;
 `
-export const PublicationTitle = styled.a`
+
+export const PublicationTitle = css`
   font-size: 1rem;
   font-variation-settings: 'wght' ${FontWeight.Medium};
+`
 
-  span {
-    font-style: italic;
-    font-variation-settings: 'ital' 1;
-    text-decoration: none;
-  }
+export const ExternalLink = styled.a`
+  ${PublicationTitle};
+`
+
+export const InternalLink = styled(Link)`
+  ${PublicationTitle};
 `

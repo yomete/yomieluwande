@@ -17,21 +17,21 @@ const OtherPublications = () => (
   <Styles.OtherPublications>
     <Styles.Category>Other Publications</Styles.Category>
 
-    <Styles.PublicationTitle
+    <Styles.ExternalLink
       href="https://www.academia.edu/26758619/Above-Ground_Pipeline_Monitoring_and_Surveillance_Drone_Reactive_To_Attacks?source=swp_share"
       target="_blank"
     >
       A published paper on monitoring above ground oil pipelines with
       surveillance drones
-    </Styles.PublicationTitle>
+    </Styles.ExternalLink>
 
-    <Styles.PublicationTitle
+    <Styles.ExternalLink
       href="https://www.sitepoint.com/premium/books/creating-beautiful-charts-using-vue-js-wrappers-for-chart-js"
       target="_blank"
     >
       A book published by Sitepoint that shows how to create charts Using Vue.js
       Wrappers for Chart.js
-    </Styles.PublicationTitle>
+    </Styles.ExternalLink>
   </Styles.OtherPublications>
 )
 
@@ -43,24 +43,32 @@ const TechnicalArticles: React.FC<{ articles: TechnicalArticlesProps[] }> = ({
 
     {articles.map((article, i) => (
       <div key={i}>
-        <Styles.PublicationDate>{article.date}</Styles.PublicationDate>
-        <Styles.PublicationTitle href={article.link} target="_blank">
-          {article.title} <span>[{article.publication}]</span>
-        </Styles.PublicationTitle>
+        <Styles.ExternalLink href={article.link} target="_blank">
+          {article.title}
+        </Styles.ExternalLink>
       </div>
     ))}
   </Styles.TechnicalArticles>
 )
 
-export const Journal = () => {
+const Journal = () => (
+  <Styles.TechnicalArticles>
+    <Styles.InternalLink to="/achterbahn">Achterbahn</Styles.InternalLink>
+  </Styles.TechnicalArticles>
+)
+
+export const Writing = () => {
   return (
     <SiteFrame>
       <Styles.Root>
-        <h1>Journal</h1>
+        <h1>Writing</h1>
         <p>
           I’ve written a bunch of technical articles and I’m also trying to
           write more about my thoughts and ideas.
         </p>
+
+        <Journal />
+
         <TechnicalArticles articles={articles} />
 
         <OtherPublications />
@@ -74,4 +82,4 @@ export const Journal = () => {
   )
 }
 
-export default Journal
+export default Writing
