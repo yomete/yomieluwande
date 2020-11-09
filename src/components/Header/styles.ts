@@ -12,16 +12,20 @@ export const Header = styled.header`
   margin-top: 4.375rem;
   margin-bottom: 6.25rem;
 
-  padding: 0 2rem;
-
-  @media all and (min-width: 1024px) {
-    padding: 0;
-  }
+  padding: 0 1rem;
 
   div {
     &:nth-child(2) {
       margin-left: auto;
     }
+  }
+
+  @media all and (min-width: 768px) {
+    padding: 0 2rem;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding: 0;
   }
 `
 
