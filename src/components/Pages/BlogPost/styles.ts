@@ -15,3 +15,15 @@ export const Root = styled.article`
     padding: 0;
   }
 `
+
+export const Title = styled.h1`
+  margin-bottom: 0;
+`
+
+export const Date = styled.p`
+  font-style: italic;
+`
+
+export const ArticleBody = styled.article`
+  margin-top: 1rem;
+`

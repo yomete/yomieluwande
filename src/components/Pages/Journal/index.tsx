@@ -53,7 +53,14 @@ const TechnicalArticles: React.FC<{ articles: TechnicalArticlesProps[] }> = ({
 
 const Journal = () => (
   <Styles.TechnicalArticles>
-    <Styles.InternalLink to="/achterbahn">Achterbahn</Styles.InternalLink>
+    <div>
+      <Styles.InternalLink to="/birthday-wishlist">
+        Birthday Wishlist
+      </Styles.InternalLink>
+    </div>
+    <div>
+      <Styles.InternalLink to="/achterbahn">Achterbahn</Styles.InternalLink>
+    </div>
   </Styles.TechnicalArticles>
 )
 

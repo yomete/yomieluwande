@@ -13,10 +13,14 @@ const BlogPostTemplate = ({ data }) => {
     <SiteFrame>
       <Styles.Root itemScope itemType="http://schema.org/Article">
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <Styles.Title itemProp="headline">
+            {post.frontmatter.title}
+          </Styles.Title>
+          <Styles.Date>{post.frontmatter.date}</Styles.Date>
         </header>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <Styles.ArticleBody>
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </Styles.ArticleBody>
       </Styles.Root>
 
       <SEO
