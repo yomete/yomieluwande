@@ -1,8 +1,8 @@
-import * as React from "react"
+import * as React from 'react'
 
-import SEO from "src/utils/seo"
-import SiteFrame from "src/components/SiteFrame"
-import * as Styles from "./styles"
+import SEO from 'src/utils/seo'
+import SiteFrame from 'src/components/SiteFrame'
+import * as Styles from './styles'
 
 export const Work = () => {
   return (
@@ -17,14 +17,15 @@ export const Work = () => {
         <Styles.Experiences>
           <Styles.Company>Clue</Styles.Company>
           <Styles.Title>
-            Frontend Engineer <span>(May 2019 - Present)</span>
+            Frontend Engineer [Chapter Lead] <span>(May 2019 - Present)</span>
           </Styles.Title>
           <p>
             Working on helloclue.com; a Gatsby site which is an encyclopedia for
-            women’s health. Responsible for adding/maintaining new components
-            to serve content from a Contentful GraphQL server. Built a Jenkins
-            CI process that uses Lighthouse to check if a PR build
-            increases/decreases page speed and performance.
+            women’s health. Responsible for adding/maintaining new components to
+            serve content from a Contentful GraphQL server. Built a Jenkins CI
+            process that uses Lighthouse to check if a PR build
+            increases/decreases page speed and performance. I am also the
+            Chapter lead for the Web team since Sept. 2020.
             <br />
             <br />
             Technologies: Gatsby, React, TypeScript, GraphQL, Docker.
