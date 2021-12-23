@@ -11,23 +11,21 @@ export const Homepage = () => {
       <Styles.Root>
         <h1>Hello, I’m Yomi Eluwande</h1>
 
-        <p>I'm a frontend engineer and writer currently living in Berlin.</p>
+        <p>I'm a frontend engineer living in Berlin.</p>
 
         <p>
-          I'm currently at <Styles.Clue>Clue</Styles.Clue>; a period tracking
-          app and I'm part of the frontend team that maintains{' '}
-          <a href="https://helloclue.com/" target="_blank">
-            helloclue.com
-          </a>
-          ; a React-based encyclopedia for everything about women's health.
+          I'm currently at{' '}
+          <Styles.PolarSignals>Polar Signals</Styles.PolarSignals>; a continous
+          profiling tool for applications and infrastructure.
         </p>
 
         <p>
-          Previously, I worked at{' '}
-          <Styles.Flutterwave href="https://flutterwave.com" target="_blank">
+          Previously, I worked at <Styles.Clue>Clue</Styles.Clue>; a period
+          tracking app and{' '}
+          <Styles.Flutterwave>
             Flutterwave
-          </Styles.Flutterwave>{' '}
-          where I built and maintained the payment checkout form and the
+          </Styles.Flutterwave>
+          , where I built and maintained the payment checkout form and the
           merchant dashboard.
         </p>
 
@@ -40,7 +38,7 @@ export const Homepage = () => {
 
         <ul>
           <li>
-            <Link to="/journal">Journal</Link>
+            <Link to="/writing">Writing</Link>
           </li>
           <li>
             <a href="https://twitter.com/yomieluwande" target="_blank">

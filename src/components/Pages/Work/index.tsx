@@ -15,12 +15,26 @@ export const Work = () => {
         </Styles.Email>
 
         <Styles.Experiences>
-          <Styles.Company>Clue</Styles.Company>
+          <Styles.Company>Polar Signals</Styles.Company>
           <Styles.Title>
-            Frontend Engineer [Chapter Lead] <span>(May 2019 - Present)</span>
+            Senior Software Engineer <span>(Dec 2021 - Present)</span>
           </Styles.Title>
           <p>
-            Working on helloclue.com; a Gatsby site which is an encyclopedia for
+            Working on all things frontend at Polar Signals and open source
+            product, parca.dev
+            <br />
+            <br />
+            Technologies: Next.js, React, TypeScript, gRPC-web.
+          </p>
+        </Styles.Experiences>
+
+        <Styles.Experiences>
+          <Styles.Company>Clue</Styles.Company>
+          <Styles.Title>
+            Frontend Engineer <span>(May 2019 - October 2021)</span>
+          </Styles.Title>
+          <p>
+            Worked on helloclue.com; a Gatsby site which is an encyclopedia for
             women’s health. Responsible for adding/maintaining new components to
             serve content from a Contentful GraphQL server. Built a Jenkins CI
             process that uses Lighthouse to check if a PR build

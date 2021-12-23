@@ -29,6 +29,10 @@ export const Root = styled.section`
 export const Clue = styled.span`
   color: ${BrandColors.Clue};
 `
-export const Flutterwave = styled.a`
+
+export const PolarSignals = styled.span`
+  color: ${BrandColors.PolarSignals};
+`
+export const Flutterwave = styled.span`
   color: ${BrandColors.Flutterwave};
 `
