@@ -15,17 +15,14 @@ export const Homepage = () => {
 
         <p>
           I'm currently at{' '}
-          <Styles.PolarSignals>Polar Signals</Styles.PolarSignals>; a continous
+          <Styles.PolarSignals>Polar Signals</Styles.PolarSignals>; a continuous
           profiling tool for applications and infrastructure.
         </p>
 
         <p>
           Previously, I worked at <Styles.Clue>Clue</Styles.Clue>; a period
-          tracking app and{' '}
-          <Styles.Flutterwave>
-            Flutterwave
-          </Styles.Flutterwave>
-          , where I built and maintained the payment checkout form and the
+          tracking app and <Styles.Flutterwave>Flutterwave</Styles.Flutterwave>,
+          where I built and maintained the payment checkout form and the
           merchant dashboard.
         </p>
 

@@ -20,8 +20,9 @@ export const Work = () => {
             Senior Software Engineer <span>(Dec 2021 - Present)</span>
           </Styles.Title>
           <p>
-            Working on all things frontend at Polar Signals and open source
-            product, parca.dev
+            Working on all things frontend at Polar Signals; a continuous
+            profiling tool for applications and infrastructure and creators of
+            open source product, parca.dev
             <br />
             <br />
             Technologies: Next.js, React, TypeScript, gRPC-web.
