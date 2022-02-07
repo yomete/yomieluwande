@@ -54,6 +54,9 @@ const TechnicalArticles: React.FC<{ articles: TechnicalArticlesProps[] }> = ({
 const Journal = () => (
   <Styles.TechnicalArticles>
     <div>
+      <Styles.InternalLink to="/reading">Reading</Styles.InternalLink>
+    </div>
+    <div>
       <Styles.InternalLink to="/birthday-wishlist">
         Birthday Wishlist
       </Styles.InternalLink>
