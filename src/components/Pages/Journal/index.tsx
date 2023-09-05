@@ -86,7 +86,7 @@ export const Writing = () => {
 
       <SEO
         title="Journal"
-        description="The journal of Yomi Eluwande. A frontend engineer and writer currently living in Berlin."
+        description="The journal of Yomi Eluwande. A software engineer living in Berlin."
       />
     </SiteFrame>
   )

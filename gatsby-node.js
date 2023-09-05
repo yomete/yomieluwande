@@ -8,6 +8,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const journalPage = path.resolve(`./src/components/Pages/Journal/index.tsx`)
   const projectsPage = path.resolve(`./src/components/Pages/Projects/index.tsx`)
   const workPage = path.resolve(`./src/components/Pages/Work/index.tsx`)
+  const photographyPage = path.resolve(
+    `./src/components/Pages/Photography/index.tsx`,
+  )
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/components/Pages/BlogPost/index.tsx`)
@@ -75,6 +78,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   createPage({
     path: '/work',
     component: workPage,
+  })
+
+  createPage({
+    path: '/photography',
+    component: photographyPage,
   })
 }
 

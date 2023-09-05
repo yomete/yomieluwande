@@ -13,6 +13,7 @@ const Header = () => {
         <Styles.PageLink to="/writing">writing</Styles.PageLink>
         <Styles.PageLink to="/work">work</Styles.PageLink>
         <Styles.PageLink to="/projects">projects</Styles.PageLink>
+        <Styles.PageLink to="/photography">photography</Styles.PageLink>
       </div>
     </Styles.Header>
   )

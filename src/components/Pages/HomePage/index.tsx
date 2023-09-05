@@ -11,7 +11,7 @@ export const Homepage = () => {
       <Styles.Root>
         <h1>Hello, I’m Yomi Eluwande</h1>
 
-        <p>I'm a frontend engineer living in Berlin.</p>
+        <p>I'm a software engineer living in Berlin.</p>
 
         <p>
           I'm currently at{' '}
@@ -60,7 +60,7 @@ export const Homepage = () => {
 
       <SEO
         title="Hello 👋🏾"
-        description="A frontend engineer and writer currently living in Berlin."
+        description="A software engineer living in Berlin."
       />
     </SiteFrame>
   )
